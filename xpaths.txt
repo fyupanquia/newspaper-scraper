@@ -1,0 +1,9 @@
+FIRST = //*[@id="fusion-app"]/div/div[2]/article[1]/div/div[1]/div/div[1]/div/div/div/div[1]/div/h2/a/@href
+SECOND = //*[@id="bloque_spotlight_secundary_home"]/div/div/div/div[1]/div/h2/a/@href
+THIRD = //h2[@class="cardArticleTitle"]/a/@href
+
+
+
+TITLE = //h1[@class="DefaultTitle"]/text()
+ABSTRACT = //h2[@class="DefaultSubtitle"]/text()
+BODY = //div[@class="page-internal-content"]//p/text()
